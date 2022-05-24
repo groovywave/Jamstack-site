@@ -1,4 +1,4 @@
-.list {
+/* .list {
   display: grid;
   margin: 0;
   /* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
@@ -51,4 +51,4 @@
 .intro {
   max-width: none;
   line-height: var(--line-height-loose);
-}
+} */
