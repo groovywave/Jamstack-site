@@ -1,9 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    defaultTitle: ` Jack of All Trades Official Site `,
+    defaultDescription: ` モダン 開発 を 得意 と する Jack of All Trades の 公式 サイト です。 `,
+    defaultImage: "src/ image/ social-card. png", 
+    siteUrl: "https://fluffy-florentine-147b47.netlify.app",
+    // title: `Gatsby Default Starter`,
+    // description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    // author: `@gatsbyjs`,
+    // siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [  
     `gatsby-plugin-sass`,
