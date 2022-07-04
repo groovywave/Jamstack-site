@@ -9,9 +9,9 @@ const SEO = ({title, description}) => {
     const {pathname} = useLocation()
     const {site} = useStaticQuery(query)
     const {
-        defaltTitle,
+        defaultTitle,
         defaultDescription,
-        defautImage,
+        defaultImage,
         siteUrl,
     } = site.siteMetadata
 
@@ -32,7 +32,7 @@ const SEO = ({title, description}) => {
             <title>{title}</title>
             <meta name= "description" content={description} />
             <meta name= "image" content={defaultImage} />
-            <Link rel="canonical" href={seo.canonical} />
+            <link rel="canonical" href={seo.canonical} />
 
             {seo.title && <meta property = "og:title" content={seo.title} />}
             {seo.description && <meta property="og:description" content= {seo.description} />}

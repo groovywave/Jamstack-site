@@ -11,9 +11,9 @@ const SingleBlog = (props) => {
             <Seo title={props.data.contentfulBlog.title} description={props.data.contentfulBlog.excerpt} />
             <div className={style.hero}>
                 <GatsbyImage 
-                    image={props.data.contentfulBlog.image.gatsbyImageData} 
+                    image = {props.data.contentfulBlog.image.gatsbyImageData} 
                     alt="blog-image" 
-                />
+            />
             </div>
             <div className={style.wrapper}>  
                 <div className={style.container}>               
