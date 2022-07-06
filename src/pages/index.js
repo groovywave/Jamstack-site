@@ -23,7 +23,7 @@ const Index = (props) => {
                 className={style.heroImg}
             />
             <div className={style.textContainer}>
-                <h1>Jack of All Trades</h1>
+                <h1>Jack of All Trades!</h1>
                 <h3>World's Largest Provider</h3>
             </div>
         </div>
