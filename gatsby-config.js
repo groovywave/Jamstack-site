@@ -23,7 +23,7 @@ module.exports = {
       options: { 
         spaceId: process.env.CONTENTFUL_STACE_ID,
         accessToken:  process.env.CONTENTFUL_ACCESS_TOKEN,
-        host: process.env.CONTENTFUL_HOST,
+        // host: process.env.CONTENTFUL_HOST,
       },
     },
     {
