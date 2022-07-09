@@ -16,7 +16,7 @@ const Footer = () => {
                 <a href="https://www.google.com/"><img src={facebook} alt="logo"/></a>
                 <hr/>
                 
-                <Link to="/blog">Top</Link>
+                <Link to="/">Top</Link>
                 <Link to="/blog">Blog</Link>
                 {/* <Link to="/contact">Contact</Link> */}
                 <p>©{new Date().getFullYear()} hasenori</p>

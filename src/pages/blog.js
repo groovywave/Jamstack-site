@@ -8,7 +8,7 @@ import * as style from "../styles/blog.module.scss"
 const Blog = (props) => { 
     return ( 
       <Layout>
-        <Seo title="コンタクト" description="これはコンタクトページです。" />
+        <Seo title="Blog" description="これはhasenoriBlogページです。" />
        <div className={style.wrapper}>
             <div className ={style.container}>
             <h1>Blog</h1>
