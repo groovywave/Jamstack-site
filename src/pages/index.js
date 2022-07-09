@@ -52,9 +52,9 @@ const Index = (props) => {
                     <div><img src={NextLogo} alt="Next"/><span>Next.JS / 0 years</span></div>
                 </div>
             </div>
-            <div className = {style.ctaButton}>
+            {/* <div className = {style.ctaButton}>
                 <Link to="/contact">Contact Us!</Link>
-            </div>
+            </div> */}
         </div>
     </ Layout>
   )
