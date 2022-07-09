@@ -16,9 +16,10 @@ const Footer = () => {
                 <a href="https://www.google.com/"><img src={facebook} alt="logo"/></a>
                 <hr/>
                 
+                <Link to="/blog">Top</Link>
                 <Link to="/blog">Blog</Link>
-                <Link to="/contact">Contact</Link>
-                <p>©{new Date().getFullYear()} Jack of All Trades</p>
+                {/* <Link to="/contact">Contact</Link> */}
+                <p>©{new Date().getFullYear()} hasenori</p>
             </div>
         </footer>
     )

@@ -23,17 +23,17 @@ const Index = (props) => {
                 className={style.heroImg}
             />
             <div className={style.textContainer}>
-                <h1>Jack of All Trades!</h1>
-                <h3>World's Largest Provider</h3>
+                <h1>hasenori</h1>
+                <h3>日常思ったこと感じたこと</h3>
             </div>
         </div>
 
         <div className={style.container}>
             <div className={style.company}>
                 <div>
-                    <h2>弊社について</h2>
+                    <h2>私について</h2>
                     <p>{props.data.contentfulLastupdate.lastupdate}</p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>健康オタクでサッカー好き</p>
                 </div>
                 <StaticImage
                     src="../images/company.jpg" 
@@ -46,10 +46,10 @@ const Index = (props) => {
             <div className={style.service}>
                 <h2>Service</h2>
                 <div className={style.serviceContainer}>
-                    <div><img src={JSLogo} alt="javascript"/><span>JavaScript / 10 years</span></div>
-                    <div><img src={ReactLogo} alt="react"/><span>React / 5 years</span></div>
-                    <div><img src={GatsbyLogo} alt="Gatsby"/><span>Gatsby / 3 years</span></div>
-                    <div><img src={NextLogo} alt="Next"/><span>Next.JS / 3 years</span></div>
+                    <div><img src={JSLogo} alt="javascript"/><span>JavaScript / 1 years</span></div>
+                    <div><img src={ReactLogo} alt="react"/><span>React / 0 years</span></div>
+                    <div><img src={GatsbyLogo} alt="Gatsby"/><span>Gatsby / 0 years</span></div>
+                    <div><img src={NextLogo} alt="Next"/><span>Next.JS / 0 years</span></div>
                 </div>
             </div>
             <div className = {style.ctaButton}>

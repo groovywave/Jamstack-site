@@ -12,7 +12,7 @@ const Blog = (props) => {
        <div className={style.wrapper}>
             <div className ={style.container}>
             <h1>Blog</h1>
-            <p>弊社サービスやお客様の声などを紹介します。</p>
+            <p>日常思ったこと感じたことを書いていきます。</p>
                  {props.data.allContentfulBlog.edges.map((singleBlog, index) => (
                         <div className={style.blogCard} key={index}>                            
                             <div className={style.textcontainer}>
