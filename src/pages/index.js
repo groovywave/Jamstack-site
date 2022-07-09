@@ -44,7 +44,7 @@ const Index = (props) => {
                 />
             </div>
             <div className={style.service}>
-                <h2>Service</h2>
+                <h2>学習年数</h2>
                 <div className={style.serviceContainer}>
                     <div><img src={JSLogo} alt="javascript"/><span>JavaScript / 1 years</span></div>
                     <div><img src={ReactLogo} alt="react"/><span>React / 0 years</span></div>
